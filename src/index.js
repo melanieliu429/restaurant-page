@@ -5,9 +5,6 @@ import displayStores from "./stores";
 const content = document.querySelector("#content");
 const navigation = document.querySelector("nav");
 
-
-
-
 function displayTabs() {
     content.style.display = "flex";
     content.style.justifyContent = "center";

@@ -1,3 +1,4 @@
+import restaurant from "./img/restaurant.jpg";
 const content = document.querySelector("#content");
 
 function displayStores() {
@@ -13,7 +14,7 @@ function displayStores() {
     card.appendChild(store);
     card.appendChild(address)
 
-    image.src = "../img/restaurant.jpg";
+    image.src = restaurant;
     image.alt = "restaurant pic";
     store.innerHTML = "San Francisco";
     address.innerHTML = "2345 Treerock Rd, San Francisco, CA, 87654";
